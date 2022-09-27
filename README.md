@@ -16,7 +16,7 @@
 
 1. clone your fork of this repo onto your local computer somewhere outside the class repo
 1. `cd` into the local repo
-1. Run `java --version`.  Note, this may open a prompt you to install Java: click "More Info" and follow installation instructions.  Once complete, rerun the previous command
+1. Run `java -version`.  Note, this may open a prompt you to install Java: click "More Info" and follow installation instructions.  Once complete, rerun the previous command
   1. The first line that this command gives you is the version of Java and the date of its release (e.g. `java 15 2020-09-15` tells you it is Java version 15)
   1. Now open the `system.properties` file that is at the root of this project. Make sure the number next to `java.runtime.version` in the `system.properties` file in your repo matches your version of Java.  Eg `java.runtime.version=15` is the correct version for the above output from terminal. If not, change that line of code to the correct number from terminal.  Then git add/commit/push
 
